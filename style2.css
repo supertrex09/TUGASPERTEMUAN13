@@ -1,0 +1,103 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f0e7; /* Warna coklat muda */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    background-color: #fff; /* Warna putih */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+td {
+    max-width: 150px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td img {
+    max-width: 100px; /* Ukuran gambar yang diinginkan */
+    max-height: 100px; /* Ukuran gambar yang diinginkan */
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
